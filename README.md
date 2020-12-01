@@ -1,2 +1,2 @@
-# PersonaBondForge-VikingPatch-1.0.0
+# PersonaBondForge-VikingPatch
 Rimworld mod patch, that adds crypto weapons form Vanilla factions expanded - Vikings mod to Persona bond forge mod
