@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Persona Bond Forge - Vanilla Vikings Expanded Patch</name>
+	<author>Hamster</author>
+	<packageId>hamster.personabondpatchvikings</packageId>
+    <supportedVersions>
+	<li>1.2</li>
+	</supportedVersions>
+	<description>
+Adds crypto weapons from Vanilla faction expanded Vikings to Persona bond forge.
+	</description>
+	<modDependencies>
+        <li>
+			<packageId>OskarPotocki.VFE.Vikings</packageId>
+			<displayName>Vanilla Factions Expanded - Vikings</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2231295285</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>xedos.personabond</packageId>
+			<displayName>Persona Bond Forge</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2178003816</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<!-- <li>OskarPotocki.VFE.Vikings</li> -->
+		<li>xedos.personabond</li>	
+	</loadAfter>
+</ModMetaData>
