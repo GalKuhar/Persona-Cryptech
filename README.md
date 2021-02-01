@@ -1,2 +1,2 @@
-# PersonaBondForge-VikingPatch
-Rimworld mod patch, that adds crypto weapons form Vanilla factions expanded - Vikings mod to Persona bond forge mod
+# Persona-Cryptech
+Adds persona versions of Cryptech weapons and Persona bond forge compatibility
