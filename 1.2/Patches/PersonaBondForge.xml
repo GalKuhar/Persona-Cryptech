@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	  <mods>
+      <li>Persona Bond Forge</li>
+    </mods>
+	  <match Class="PatchOperationAdd">
+	    <xpath>/Defs</xpath>
+	      <value>
+
+  <!--========== Crypto Heavy Crossbow ============-->
+
+  <RecipeDef>
+    <defName>Make_VFEV_BondCryptoHeavyCrossbow</defName>
+    <label>bond crypto heavy crossbow</label>
+    <description>Bond a crypto heavy crossbow.</description>
+    <jobString>Bonding a crypto heavy crossbow.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>200000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VFEV_CryptoHeavyCrossbow</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BondingCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>VFEV_CryptoHeavyCrossbow</li>
+        <li>BondingCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VFEV_BondCryptoHeavyCrossbow>1</VFEV_BondCryptoHeavyCrossbow>
+    </products>
+    <skillRequirements>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <recipeUsers>
+        <li>BondingBench</li>
+    </recipeUsers>
+  </RecipeDef>
+ 
+  <!--========== Crypto Light Crossbow ============-->
+	
+  <RecipeDef>
+    <defName>Make_VFEV_BondCryptoLightCrossbow</defName>
+    <label>bond crypto crossbow</label>
+    <description>Bond a crypto crossbow.</description>
+    <jobString>Bonding a crypto crossbow.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>200000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VFEV_CryptoLightCrossbow</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BondingCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>VFEV_CryptoLightCrossbow</li>
+        <li>BondingCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VFEV_BondCryptoLightCrossbow>1</VFEV_BondCryptoLightCrossbow>
+    </products>
+    <skillRequirements>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <recipeUsers>
+        <li>BondingBench</li>
+    </recipeUsers>
+  </RecipeDef>
+	
+  <!--========== Crypto Pistol ============-->
+ 
+   <RecipeDef>
+    <defName>Make_VFEV_BondCryptoPistol</defName>
+    <label>bond crypto pistol</label>
+    <description>Bond a crypto pistol.</description>
+    <jobString>Bonding a crypto pistol.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>200000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VFEV_CryptoPistol</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BondingCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>VFEV_CryptoPistol</li>
+        <li>BondingCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VFEV_BondCryptoPistol>1</VFEV_BondCryptoPistol>
+    </products>
+    <skillRequirements>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <recipeUsers>
+        <li>BondingBench</li>
+    </recipeUsers>
+  </RecipeDef>
+  
+  <!--========== Crypto Rifle ============-->
+ 
+   <RecipeDef>
+    <defName>Make_VFEV_BondCryptoRifle</defName>
+    <label>bond crypto rifle</label>
+    <description>Bond a crypto rifle.</description>
+    <jobString>Bonding a crypto rifle.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>200000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VFEV_CryptoRifle</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BondingCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>VFEV_CryptoRifle</li>
+        <li>BondingCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VFEV_BondCryptoRifle>1</VFEV_BondCryptoRifle>
+    </products>
+    <skillRequirements>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <recipeUsers>
+        <li>BondingBench</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!--========== Crypto Heavy Axe ============-->
+	
+	<RecipeDef>
+    <defName>Make_VFEV_BondCryptoHeavyAxe</defName>
+    <label>bond heavy crypto axe</label>
+    <description>Bond a heavy crypto axe.</description>
+    <jobString>Bonding a heavy crypto axe.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>200000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VFEV_CryptoHeavyAxe</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BondingCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>VFEV_CryptoHeavyAxe</li>
+        <li>BondingCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VFEV_BondCryptoHeavyAxe>1</VFEV_BondCryptoHeavyAxe>
+    </products>
+    <skillRequirements>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <recipeUsers>
+        <li>BondingBench</li>
+    </recipeUsers>
+  </RecipeDef>
+	
+  <!--========== Crypto Light Axe ============-->
+	
+  <RecipeDef>
+    <defName>Make_VFEV_BondCryptoLightAxe</defName>
+    <label>bond crypto hatchet</label>
+    <description>Bond a crypto hatchet.</description>
+    <jobString>Bonding a crypto hatchet.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>200000</workAmount>
+    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>VFEV_CryptoLightAxe</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>BondingCore</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>VFEV_CryptoLightAxe</li>
+        <li>BondingCore</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <VFEV_BondCryptoLightAxe>1</VFEV_BondCryptoLightAxe>
+    </products>
+    <skillRequirements>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <workSkill>Intellectual</workSkill>
+    <recipeUsers>
+        <li>BondingBench</li>
+    </recipeUsers>
+  </RecipeDef>
+
+
+	    </value>
+    </match>
+  </Operation>
+
+</Patch>
